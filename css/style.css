@@ -1,0 +1,93 @@
+.bg-dark-grey {
+  background-color: rgb(40, 40, 40);
+}
+
+.bg-md-grey {
+  background-color: rgb(48, 48, 48);
+}
+
+.bg-light-grey {
+  background-color: rgb(55, 55, 55);
+}
+
+.red {
+  color: #f05455;
+}
+
+.bg-red {
+  background-color: #f05455;
+}
+
+.bg-blue {
+  background-color: rgb(99, 98, 228);
+}
+
+.header {
+  padding-bottom: 100px;
+}
+.header .head {
+  position: fixed;
+  z-index: 10;
+  background-color: rgb(27, 26, 26);
+}
+.header .head nav .nav-link {
+  color: white;
+  margin: 5px;
+}
+.header .head nav .nav-link:hover {
+  color: black;
+  background-color: white;
+  border-radius: 5px;
+}
+
+.heading .h1 {
+  font-size: 5em;
+}
+.heading .h2 {
+  font-size: 2em;
+}
+.heading .text {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.work .card {
+  border-radius: 0px;
+  transition: 0.3s;
+  font-size: 0.8em;
+}
+.work .card p {
+  margin: 3px 0;
+}
+.work .card p i {
+  font-size: 2.3em;
+  transition: 0.3s;
+}
+.work .card p i:hover {
+  transform: rotate(-90deg);
+}
+.work .card:hover {
+  background-color: rgb(99, 98, 228);
+}
+
+.about .about-bg {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+.about .about-content {
+  position: relative;
+  top: 12px;
+  left: 15px;
+}
+.about .mb-4 {
+  margin-bottom: 2em !important;
+}
+.about ul li {
+  list-style: none;
+  margin: 15px 0;
+}
+.about ul li i {
+  padding: 5px 10px;
+  margin: 0 5px;
+}
+.about ul li i:hover {
+  background-color: #bb3e3e;
+}/*# sourceMappingURL=style.css.map */
